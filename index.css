@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.content{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: static;   
+}
+@media (max-width: 1440px){
+    .content{
+        width: 1000px;
+    }
+}
+@media (max-width: 768px){
+    .content{
+        width: 100%;
+    }
+}
+@media (max-width: 480px){
+    .content{
+        width: 600px;
+    }
+}
+@media (max-width: 375px){
+    .content{
+        margin-top: 25%;
+        width: 100%;
+    }
+    .attribution{
+        font-size: 2/8vw;
+    }
+}
+.block {
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    height: 450px;
+    width: 27vh;
+    background-color: white;
+    margin: 20px;
+    position: static;
+
+    
+}
+.image {
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+    border-radius: 10px;
+}
+.textBlock{
+    margin: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+p{
+    color: hsl(216, 15%, 48%);
+
+}
+.h3{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+.attribution{
+    justify-content: end;
+    position: static;
+
+}
+.center-attribution{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
